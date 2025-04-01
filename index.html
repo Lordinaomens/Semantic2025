@@ -27,12 +27,11 @@
       </ul>
     </nav>
   </header>
-
+  
   <!-- Main content of the site -->
   <main>
-
     <!-- Introduction to Lordina's creative journey -->
-    <article>
+    <article id="creative-journey">
       <header>
         <h2>My Creative Journey</h2>
       </header>
@@ -41,9 +40,9 @@
         From sketches and art studies to fashion lookbooks and photography, I’ve always been drawn to the power of design to express identity and emotion.
       </p>
     </article>
-
+  
     <!-- Creative Studio Services -->
-    <article>
+    <article id="studio-offers">
       <header>
         <h2>What My Studio Offers</h2>
       </header>
@@ -53,9 +52,9 @@
         <li><strong>Graphic Design/Information Graphics:</strong> Creating impactful visuals for branding, campaigns, and information dissemination</li>
       </ul>
     </article>
-
-    <!-- Featured Creative Projects -->
-    <article>
+  
+    <!-- Creative Highlights -->
+    <article id="creative-highlights">
       <header>
         <h2>Creative Highlights</h2>
       </header>
@@ -66,33 +65,36 @@
         <li><cite>Health Infographic for My Job</cite>: designing a visual guide to promote health and wellness at work</li>
       </ul>
     </article>
-
+  
     <!-- Blog Teasers -->
-    <article>
+    <article id="blog-teasers">
       <header>
         <h2>From the Blog</h2>
       </header>
       <p>Reflections and thoughts on the creative world:</p>
       <ul>
-        <!-- <li><a href="#">The Creatives: Alexander McQueen – A Master of Originality and Innovation.</a></li> -->
-        <!-- <li><a href="#">Why I Still Keep a Sketchbook in the Digital Age</a></li> -->
-        <!-- <li><a href="#">Sustainable Fashion: DIY Tips & Brands I Love</a></li> -->
+        <!-- Placeholder for blog teasers -->
       </ul>
-  </article>
-
-    <!-- New Section for The Creatives blog: Alexander McQueen Video -->
-    <article>
+    </article>
+  
+    <!-- Alexander McQueen Section with Image and Video -->
+    <article id="mcqueen">
       <header>
         <h2>The Creatives: Alexander McQueen – A Master of Originality and Innovation</h2>
       </header>
-
-          <!-- Image of Alexander McQueen -->
-          <figure>
-            <img src="media/AlexanderMcQueen.webp" alt="Alexander McQueen in his studio" width="650" height="432">
-            <figcaption>Alexander McQueen in his studio, a moment of creative genius.</figcaption>
-          </figure>
-          
+  
+      <!-- Image of Alexander McQueen -->
+      <figure>
+        <picture>
+          <source srcset="media/AlexanderMcQueen.webp" type="image/webp">
+          <img src="media/AlexanderMcQueen.jpg" alt="Alexander McQueen in his studio" width="600" height="428">
+        </picture>
+        <figcaption>Alexander McQueen in his studio, a moment of creative genius.</figcaption>
+      </figure>
+  
+      <!-- Video of Alexander McQueen -->
       <p>In this video, the creator explores the beautiful yet tragic life story of Alexander McQueen, one of the most iconic and influential designers in fashion history. Watch to learn about his journey from London’s Savile Row to his rise at Central Saint Martins, his appointment at a legendary fashion house, and the launch of his own label, 'Alexander McQueen'. This story also covers the challenges McQueen faced with fame and fortune, giving us an insight into his remarkable career and life.</p>
+      
       <!-- Embedding YouTube video using iframe -->
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/ZUZx1cIfY2c?start=35"
@@ -102,11 +104,10 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
       </iframe>
-
     </article>
-
+  
     <!-- Upcoming Events Table -->
-    <article>
+    <article id="events">
       <header>
         <h2>Upcoming Major Art & Fashion Events</h2>
       </header>
@@ -143,28 +144,28 @@
         </tbody>
       </table>
     </article>
-
-    <!-- Feedback Form Section -->
-    <article>
+  
+    <!-- Feedback & Contact Section -->
+    <article id="feedback">
       <header>
         <h2>Feedback & Contact</h2>
       </header>
       <form action="#" method="get">
         <label for="name">Enter your name: </label>
         <input type="text" name="name" id="name" required><br>
-
+  
         <label for="email">Enter your email: </label>
         <input type="email" name="email" id="email" required><br>
-
+  
         <label for="message">Your message: </label>
         <textarea name="message" id="message" rows="4" cols="50" required></textarea><br>
-
+  
         <input type="submit" value="Submit">
       </form>
     </article>
-
+  
   </main>
-
+  
   <!-- Sidebar Section -->
   <aside>
     <h3>Let’s Collaborate</h3>
@@ -173,7 +174,7 @@
       <strong>I'd love to create something powerful with you.</strong>  
     </p>
   </aside>
-
+  
   <!-- Footer with contact info -->
   <footer>
     <hr>
@@ -182,6 +183,6 @@
       Email: <a href="mailto:lordina@lordinasdesignstudio.com">lordina@lordinasdesignstudio.com</a>
     </address>
   </footer>
-
-</body>
-</html>
+  
+  </body>
+  </html>
