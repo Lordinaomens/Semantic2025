@@ -5,8 +5,8 @@ body {
   padding: 0;
   background: #fefefe;
   color: #333;
-  line-height: 1.6; /* Improve readability */
-  letter-spacing: 0.5px; /* Improve text spacing */
+  line-height: 1.6; /*  readability */
+  letter-spacing: 0.5px; /*  text spacing */
 }
 
 header {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6f61; /* Change color on hover */
+  color: #ff61b8; /* Change color on hover */
 }
 
 /* Main Content */
