@@ -104,12 +104,6 @@ article p {
   margin-bottom: 20px;
 }
 
-/* Media Queries for Mobile Layout */
-@media (max-width: 600px) {
-  main {
-    padding: 1em;
-  }
-
   article {
     padding: 15px;
   }
