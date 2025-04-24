@@ -5,8 +5,8 @@ body {
   padding: 0;
   background: #fefefe;
   color: #333;
-  line-height: 1.6; /*  readability */
-  letter-spacing: 0.5px; /*  text spacing */
+  line-height: 1.6; /* readability */
+  letter-spacing: 0.5px; /* text spacing */
 }
 
 header {
@@ -85,26 +85,40 @@ img {
   height: auto;
 }
 
-/* Table Styles */
-table {
-  width: 100%;
-  border-collapse: collapse;
+/* Article Styling */
+article {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
-table th, table td {
-  padding: 8px;
-  text-align: left;
+article h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-table caption {
-  font-weight: bold;
-  margin-bottom: 10px;
+article p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 /* Media Queries for Mobile Layout */
 @media (max-width: 600px) {
-  table, th, td {
-    display: block;
-    width: 100%;
+  main {
+    padding: 1em;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
