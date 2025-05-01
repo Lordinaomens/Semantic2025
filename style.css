@@ -45,6 +45,14 @@ nav a:hover {
   color: #ff61b8; /* Change color on hover */
 }
 
+/* Heading link styles */
+header h1 a,
+header h1 a:visited,
+header h1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /* Main Content */
 main {
   padding: 2em;
