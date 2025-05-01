@@ -20,6 +20,11 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif; /* Use a Google Font */
   line-height: 1.4;
 }
+/* Fix contrast errors */
+header h2,
+nav h2 {
+  color: #ffffff;
+}
 
 /* Navigation Styles */
 nav ul {
